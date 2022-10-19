@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bege">
+
+    <TextView
+        android:id="@+id/tituloCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="@color/marrom"
+        android:background="@color/bege"/>
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloCadastro"
+        android:layout_marginTop="35dp"
+        android:hint="Insira seu nome:"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edNome"
+        android:layout_marginTop="30dp"
+        android:hint="Insira o login:"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edSenha1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edLogin"
+        android:layout_marginTop="30dp"
+        android:hint="Insira a senha:"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edSenha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edSenha1"
+        android:layout_marginTop="31dp"
+        android:hint="Confirme a senha:"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/edSenha2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="57dp"
+        android:backgroundTint="@color/marrom"
+        android:text="SALVAR"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

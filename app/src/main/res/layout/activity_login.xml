@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tituloLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APP LOGIN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="@color/bege"
+        android:background="@color/marrom"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/login" />
+
+    <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/marrom"
+        android:text="REGISTRAR"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btEntrar"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="210dp"
+        android:text="ENTRAR"
+        android:textSize="25dp"
+        android:backgroundTint="@color/marrom"/>
+</RelativeLayout>
